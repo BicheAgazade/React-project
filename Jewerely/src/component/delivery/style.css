@@ -1,0 +1,88 @@
+.main-1 {
+    width: 80%;
+    margin: 150px auto;
+    display: flex;
+}
+
+.main-1 h2 {
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.main-1 p {
+    text-align: justify;
+    line-height: 30px;
+}
+
+.main-1 div {
+    margin: 1%;
+}
+
+.animate-container-9 {
+    animation-name: animation_9;
+    animation-duration: 2s;
+}
+
+.animate-container-10 {
+    animation-name: animation_10;
+    animation-duration: 2s;
+}
+
+.animate-container-11 {
+    animation-name: animation_11;
+    animation-duration: 2s;
+}
+
+.animate-container-12 {
+    animation-name: animation_12;
+    animation-duration: 2s;
+}
+
+@keyframes animation_9 {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+        transition: 2s;
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes animation_10 {
+    from {
+        opacity: 0.4;
+        transform: translateX(-80px);
+        transition: 2s;
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes animation_11 {
+    from {
+        opacity: 0.4;
+        transform: translateX(-60px);
+        transition: 2s;
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes animation_12 {
+    from {
+        opacity: 0.4;
+        transform: translateX(-40px);
+        transition: 2s;
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}

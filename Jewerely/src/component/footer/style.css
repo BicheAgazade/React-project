@@ -1,0 +1,111 @@
+.footer-div {
+    width: 100%;
+    background-color: #EFCDD3;
+    padding: 50px;
+    display: flex;
+}
+
+.footer-info-div {
+    display: flex;
+    width: 40%;
+    border: 1px solid gray;
+    margin: 0.5%;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.btn-footer {
+    width: 50%;
+}
+
+.btn-footer h2,
+.input-div-1 h2 {
+    font-size: 25px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.btn-footer button {
+    background-color: transparent;
+    padding: 10px 0px;
+    display: flex;
+    width: 70%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border: none;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: black;
+}
+
+.link-footer:hover {
+    color: rgb(172, 89, 89);
+    cursor: pointer;
+}
+
+.footer-img-div,
+.input-div-1 {
+    width: 30%;
+    margin-left: 40px;
+    border: 1px solid gray;
+    margin: 0.5%;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.footer-img-div img {
+    width: 30%;
+    margin-bottom: 20px;
+    margin-left: 8px;
+}
+
+.inner-footer-img-div {
+    width: 100%;
+    display: flex;
+}
+
+.inner-footer-img-div img {
+    width: 4%;
+    margin: 8px;
+}
+
+.inner-footer-img-div p {
+    margin: 15px;
+    font-size: 18px;
+}
+
+.soc-div {
+    display: flex;
+    width: 20%;
+    margin-top: 50px;
+    margin-left: -9px;
+}
+
+.soc-div img {
+    width: 70%;
+    margin: 20px;
+}
+
+.soc-div a {
+    width: 100%;
+}
+
+.div-input {
+    padding: 20px;
+}
+
+.input-div-1 button {
+    background-color: transparent;
+    padding: 10px 40px;
+    display: flex;
+    border: 1px solid gray;
+    color: white;
+}
+
+.input-div-1 button:hover {
+    cursor: pointer;
+    background-color: rgb(156, 100, 109);
+    transition: 1s;
+}

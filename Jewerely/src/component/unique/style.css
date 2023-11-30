@@ -1,0 +1,100 @@
+.unique-div {
+    width: 90%;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.inner-unique {
+    width: 40%;
+    margin-top: 100px;
+    margin-right: 40px;
+}
+
+.inner-unique h2 {
+    font-size: 55px;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    line-height: 65px;
+}
+
+.inner-unique p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 35px;
+}
+
+.inner-unique button {
+    background-color: transparent;
+    padding: 10px 50px;
+    border: 1px solid lightgrey;
+    margin-top: 35px;
+}
+
+.img-unique {
+    width: 40%;
+}
+
+.img-unique-1 {
+    width: 100%;
+}
+
+.img-unique-2 {
+    width: 22%;
+    position: absolute;
+    top: 290px;
+    left: 650px;
+    right: 10px;
+}
+
+.animate-container-6 {
+    animation-name: info_animation;
+    animation-duration: 2s;
+}
+
+.animate-container-7 {
+    animation-name: img_1_ani;
+    animation-duration: 2s;
+}
+
+.animate-container-8 {
+    animation-name: img_2_ani;
+    animation-duration: 2s;
+}
+
+@keyframes animation_6 {
+    from {
+        opacity: 0;
+        transform: translateX(-250px);
+        transition: 2s;
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes animation_7 {
+    from {
+        opacity: 0.4;
+        transform: translateY(-100px);
+        transition: 2s;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes animation_8 {
+    from {
+        opacity: 0.4;
+        transform: translateY(-100px);
+        transition: 2s;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

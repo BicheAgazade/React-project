@@ -1,0 +1,96 @@
+            .main-container {
+                width: 90%;
+                margin: 150px auto;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .inner-container {
+                width: 60%;
+                margin-left: 30px;
+            }
+            
+            .inner-container h2 {
+                margin-bottom: 80px;
+                font-size: 50px;
+                letter-spacing: 5px;
+                width: 78%;
+                line-height: 70px;
+            }
+            
+            .flex-div {
+                display: flex;
+                width: 100%;
+                margin-bottom: 40px;
+            }
+            
+            .flex-div img {
+                width: 15%;
+                background-color: rgb(237, 225, 227);
+                border-radius: 150px;
+                padding: 20px;
+            }
+            
+            .flex-div-1 {
+                margin: 15px;
+                width: 95%;
+            }
+            
+            .flex-div-1 h3 {
+                font-size: 20px;
+                margin: 0px 10px;
+            }
+            
+            .flex-div-1 p {
+                font-size: 15px;
+                margin: 10px 10px;
+                text-align: justify;
+                line-height: 25px;
+            }
+            
+            .inner-container button {
+                background-color: transparent;
+                padding: 15px 50px;
+                border: 1px solid lightgrey;
+                margin-top: 40px;
+                margin-left: 10px
+            }
+            
+            .img-div-1 {
+                width: 40%;
+                margin-top: 65px;
+            }
+            
+            .left-animation {
+                animation-name: left_animation;
+                animation-duration: 2s;
+            }
+            
+            .right-animation {
+                animation-name: right_animation;
+                animation-duration: 2s;
+            }
+            
+            @keyframes left_animation {
+                from {
+                    opacity: 0.4;
+                    transform: translateX(-250px);
+                    transition: 2s;
+                }
+                to {
+                    opacity: 1;
+                    transform: translateX(0px);
+                }
+            }
+            
+            @keyframes right_animation {
+                from {
+                    opacity: 0.4;
+                    transform: translateX(250px);
+                    transition: 2s;
+                }
+                to {
+                    opacity: 1;
+                    transform: translateX(0px);
+                }
+            }

@@ -1,0 +1,28 @@
+.chooseus-div {
+    width: 45%;
+    margin: 200px auto;
+    text-align: center;
+}
+
+.chooseus-div h3 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.chooseus-div h2 {
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+
+.chooseus-div p {
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 55px;
+}
+
+.chooseus-div hr {
+    border: 1px solid rgb(123, 82, 82);
+    width: 15%;
+    margin-left: 280px;
+    margin-top: 20px;
+}

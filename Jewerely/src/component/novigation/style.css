@@ -1,0 +1,72 @@
+        .novigation-div {
+            margin: 0px auto;
+            display: flex;
+            position: absolute;
+            top: 30px;
+            left: 15px;
+            z-index: 1;
+        }
+        
+        .novigation-div img {
+            width: 17%;
+        }
+        
+        .novigation-div button {
+            border: none;
+            background-color: transparent;
+            margin: 15px;
+            color: rgb(245, 204, 204);
+        }
+        
+        .novigation-div button:hover {
+            color: rgb(172, 89, 89);
+            cursor: pointer;
+        }
+        
+        .app-container {
+            position: relative;
+        }
+        
+        .arrow-container {
+            display: inline-block;
+            position: relative;
+            margin-left: 100px;
+        }
+        
+        .arrow-button {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .additional-buttons {
+            display: none;
+            position: absolute;
+            top: 60%;
+            left: 25%;
+            background-color: rgb(237, 202, 202);
+            z-index: 1;
+            background-color: #90797d;
+            border-radius: 20px;
+        }
+        
+        .additional-buttons.hovered {
+            display: block;
+        }
+        
+        .additional-buttons button {
+            color: black;
+            display: flex;
+        }
+        
+        .link {
+            text-decoration: none !important;
+            background-color: transparent;
+            color: white;
+            margin: 10px;
+        }
+        
+        .link:hover {
+            color: rgb(172, 89, 89);
+            cursor: pointer;
+        }

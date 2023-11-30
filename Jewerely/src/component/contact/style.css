@@ -1,0 +1,243 @@
+.contact-info {
+    width: 100%;
+    background-image: url(https://www.chaumet.com/media/catalog/category/cover-BML-desktop.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 430px;
+    text-align: center;
+}
+
+.contact-info h2 {
+    font-size: 35px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    padding: 150px;
+    color: white;
+}
+
+.contact-help {
+    width: 65%;
+    margin: 200px auto;
+    text-align: center;
+}
+
+.contact-help p {
+    margin-top: 40px;
+    font-size: 25px;
+    margin-bottom: -60px;
+}
+
+.contact-help h2 {
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.contact-flex-div {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inner-contact {
+    width: 30%;
+    border: 1px solid lightgray;
+    padding: 50px;
+}
+
+.contact-flex-div img {
+    width: 100%;
+    background-color: rgb(239, 205, 211);
+    padding: 25px;
+}
+
+.img-contact {
+    border-radius: 150px;
+    width: 30%;
+    overflow: hidden;
+}
+
+.contact-flex-div div h3 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.contact-flex-div div p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.contact-flex-div img:hover {
+    background-color: rgb(242, 146, 165);
+    transition: 1s;
+}
+
+.img-contact-div {
+    width: 90%;
+    margin: 150px auto;
+    text-align: center;
+    position: relative;
+}
+
+.work-div {
+    width: 90%;
+    display: flex;
+    background-color: rgb(239, 205, 211);
+    position: absolute;
+    top: 600px;
+    left: 70px;
+    border-radius: 20px;
+}
+
+.inner-work-div {
+    width: 32%;
+    margin: 1%;
+    border-right: 1px solid gray;
+    padding: 15px 0;
+}
+
+.inner-work-div p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.inner-work-div h3 {
+    margin-top: 20px;
+}
+
+.form-contact-div {
+    width: 90%;
+    margin: 200px auto;
+    text-align: center;
+}
+
+.form-info h2 {
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.form-info p {
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: #e59ca9;
+}
+
+.form-div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.form-btn {
+    background-color: transparent;
+    padding: 15px 50px;
+    border: 1px solid lightgrey;
+}
+
+.form-btn:hover {
+    background-color: rgb(239, 205, 211);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.animate-container-19 {
+    animation-name: animation_19;
+    animation-duration: 2s;
+}
+
+.animate-container-20 {
+    animation-name: animation_20;
+    animation-duration: 2s;
+}
+
+.animate-container-21 {
+    animation-name: animation_21;
+    animation-duration: 2s;
+}
+
+.animate-container-22 {
+    animation-name: animation_22;
+    animation-duration: 2s;
+}
+
+.animate-container-23 {
+    animation-name: animation_23;
+    animation-duration: 2s;
+}
+
+.animate-container-24 {
+    animation-name: animation_24;
+    animation-duration: 2s;
+}
+
+@keyframes animation_19 {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+        transition: 2s;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes animation_20 {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+        transition: 2s;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes animation_21 {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+        transition: 2s;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes animation_22 {
+    from {
+        opacity: 0.4;
+        transform: translateY(100px);
+        transition: 2s;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes animation_23 {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+        transition: 2s;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes animation_24 {
+    from {
+        opacity: 0.4;
+        transform: translateY(100px);
+        transition: 2s;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

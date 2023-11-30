@@ -1,0 +1,61 @@
+.shop-div img {
+    width: 20%;
+}
+
+.shop-div {
+    width: 90%;
+    margin: 150px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shop-info-1 {
+    width: 100%;
+    background-image: url(https://www.chaumet.com/media/catalog/category/cover-nouvelles-cr_ations-V2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 430px;
+    text-align: center;
+}
+
+.shop-info-1 h2 {
+    font-size: 35px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    padding: 150px;
+    color: white;
+}
+
+.shop-inner-div {
+    width: 23%;
+    margin: 1%;
+    text-align: center;
+}
+
+.shop-inner-div:hover {
+    box-shadow: -1px 2px 15px 1px rgb(194, 132, 142);
+}
+
+.shop-inner-div img {
+    width: 100%;
+}
+
+.shop-add-btn {
+    background-color: transparent;
+    padding: 10px 50px;
+    border: 1px solid lightgrey;
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+
+.shop-add-btn:hover {
+    background-color: rgb(239, 205, 211);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.shop-inner-div h3 {
+    font-size: 18px;
+    margin-top: 20px;
+}

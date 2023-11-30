@@ -1,0 +1,74 @@
+.img-basket {
+    width: 3%;
+    background-color: rgb(239, 205, 211);
+    position: absolute;
+    top: 33px;
+    right: 35px;
+    padding: 7px;
+    border-radius: 18px;
+    z-index: 10;
+}
+
+body {
+    position: relative;
+}
+
+.inner-modal {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.inner-modal img {
+    width: 100%;
+}
+
+.inner-modal div {
+    width: 48%;
+    margin: 1%;
+}
+
+.inner-modal h3 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.inner-modal p {
+    font-size: 15px;
+}
+
+.modal-header h2 {
+    font-size: 35px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.btn-basket {
+    background-color: transparent;
+    padding: 10px 50px;
+    border: 1px solid lightgrey;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.btn-basket:hover {
+    background-color: rgb(239, 205, 211);
+    cursor: pointer;
+}
+
+.basket-count-1 {
+    position: absolute;
+    z-index: 100;
+    top: 20px;
+    right: 25px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
